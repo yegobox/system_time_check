@@ -1,15 +1,11 @@
 # system_time_check
 
-A new flutter plugin project.
+A package to help to check if the system time is set to automatic.
 
 ## Getting Started
-
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+After installing the package, you can use the following code to check if the system time is set to automatic:
+```dart
+import 'package:system_time_check/system_time_check.dart';
+await SystemTimeCheck.isSystemTimeAutomatic
+```
 

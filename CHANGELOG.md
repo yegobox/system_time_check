@@ -1,3 +1,6 @@
-## 0.0.1
+## 1.0.0
 
-* TODO: Describe initial release.
+* add debug method that always return false and add MIT license
+* updated the readme
+* The first release has a method to check
+    if a user is using system time set to automatic.
